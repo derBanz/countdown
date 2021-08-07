@@ -1,5 +1,10 @@
 """
 Set task: Create a basic countdown app, allowing the user to enter hours/minutes/seconds and have it count down to zero.
+Method:
+* The GUI consists of three text fields for the amount of hours, minutes and seconds to count down from.
+* Pressing the "Start Countdown" Button triggers the __countdown__() function.
+* The input is checked whether it's valid (i.e. numbers).
+* Using the sleep() function in a loop it counts down to 0.
 """
 
 from time import sleep
