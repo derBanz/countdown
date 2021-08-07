@@ -1,3 +1,6 @@
+"""
+Set task: Create a basic countdown app, allowing the user to enter hours/minutes/seconds and have it count down to zero.
+"""
 
 from time import sleep
 import tkinter as tk
